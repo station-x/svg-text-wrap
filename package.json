@@ -1,0 +1,35 @@
+{
+  "name": "svg-text-wrap",
+  "version": "0.0.1",
+  "description": "Give a string, a desired width, and some svg style attributes, get back an array",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel index.js --out-dir dist",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/station-x/svg-text-wrap.git"
+  },
+  "keywords": [
+    "svg",
+    "text",
+    "width",
+    "height",
+    "wrap"
+  ],
+  "author": "Michael Silveira",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/station-x/svg-text-wrap/issues"
+  },
+  "homepage": "https://github.com/station-x/svg-text-wrap#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0"
+  },
+  "dependencies": {
+    "svg-text-size": "0.0.1"
+  }
+}
